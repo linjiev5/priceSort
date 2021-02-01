@@ -27,40 +27,40 @@
               <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jLabel3" min="-2" pref="69" max="-2" attributes="0"/>
+                      <Component id="amazonKeywordLable" min="-2" pref="69" max="-2" attributes="0"/>
                       <EmptySpace pref="30" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jTextField3" min="-2" pref="177" max="-2" attributes="0"/>
+                              <Component id="rakutenKey" min="-2" pref="177" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                              <Component id="getRakutenData" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="jTextField2" min="-2" pref="177" max="-2" attributes="0"/>
+                              <Component id="amazonKey" min="-2" pref="177" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <Component id="getAmazonData" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" pref="302" max="-2" attributes="0"/>
+                      <Component id="showMessage" min="-2" pref="302" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      <Component id="returnShowData" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel5" min="-2" pref="161" max="-2" attributes="0"/>
-                          <Component id="jLabel6" min="-2" pref="161" max="-2" attributes="0"/>
-                          <Component id="jLabel2" min="-2" pref="161" max="-2" attributes="0"/>
-                          <Component id="jLabel4" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                          <Component id="rakutenLabel" min="-2" pref="161" max="-2" attributes="0"/>
+                          <Component id="amazonLabel" min="-2" pref="161" max="-2" attributes="0"/>
+                          <Component id="yahooLable" min="-2" pref="161" max="-2" attributes="0"/>
+                          <Component id="rakutenKeywordLable" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLabel1" min="-2" pref="81" max="-2" attributes="0"/>
+                              <Component id="yahooKeywordLable" min="-2" pref="81" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="yahooKey" min="-2" pref="177" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <Component id="getYahooData" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -74,33 +74,33 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-              <Component id="jLabel2" min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="yahooLable" min="-2" pref="21" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="yahooKey" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="getYahooData" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yahooKeywordLable" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-              <Component id="jLabel6" min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="amazonLabel" min="-2" pref="21" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="amazonKeywordLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="amazonKey" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="getAmazonData" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-              <Component id="jLabel5" min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="rakutenLabel" min="-2" pref="21" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rakutenKey" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rakutenKeywordLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="getRakutenData" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="38" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabel7" min="-2" pref="25" max="-2" attributes="0"/>
-                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                  <Component id="showMessage" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="returnShowData" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -113,78 +113,78 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yahooKeyActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="getYahooData">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x5546;&#x54c1;&#x60c5;&#x5831;&#x3092;&#x53d6;&#x5f97;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="getYahooDataActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="yahooKeywordLable">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x30ad;&#x30fc;&#x30ef;&#x30fc;&#x30c9;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="yahooLable">
       <Properties>
         <Property name="text" type="java.lang.String" value="Yahoo&#x30b7;&#x30e7;&#x30c3;&#x30d4;&#x30f3;&#x30b0;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="amazonKeywordLable">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x30ad;&#x30fc;&#x30ef;&#x30fc;&#x30c9;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField2">
+    <Component class="javax.swing.JTextField" name="amazonKey">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="amazonKeyActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="getAmazonData">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x5546;&#x54c1;&#x60c5;&#x5831;&#x3092;&#x53d6;&#x5f97;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="getAmazonDataActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
+    <Component class="javax.swing.JLabel" name="rakutenKeywordLable">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x30ad;&#x30fc;&#x30ef;&#x30fc;&#x30c9;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField3">
+    <Component class="javax.swing.JTextField" name="rakutenKey">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rakutenKeyActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="getRakutenData">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x5546;&#x54c1;&#x60c5;&#x5831;&#x3092;&#x53d6;&#x5f97;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="getRakutenDataActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
+    <Component class="javax.swing.JLabel" name="rakutenLabel">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x697d;&#x5929;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
+    <Component class="javax.swing.JLabel" name="amazonLabel">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x30a2;&#x30de;&#x30be;&#x30f3;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel7">
+    <Component class="javax.swing.JLabel" name="showMessage">
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="returnShowData">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x5546;&#x54c1;&#x7ba1;&#x7406;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="returnShowDataActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

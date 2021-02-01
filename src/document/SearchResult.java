@@ -52,6 +52,7 @@ public class SearchResult {
                 Data data = new Data();
                 data.setImg(img);
                 data.setPrice(price);
+                title = title.replace("'", "’");
                 data.setTitle(title);
                 // データをlistに保存する
                 datas.add(data);

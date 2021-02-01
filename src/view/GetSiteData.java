@@ -41,19 +41,19 @@ public class GetSiteData extends javax.swing.JFrame {
     private void initComponents() {
 
         yahooKey = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
-        jButton2 = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
-        jButton3 = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
+        getYahooData = new javax.swing.JButton();
+        yahooKeywordLable = new javax.swing.JLabel();
+        yahooLable = new javax.swing.JLabel();
+        amazonKeywordLable = new javax.swing.JLabel();
+        amazonKey = new javax.swing.JTextField();
+        getAmazonData = new javax.swing.JButton();
+        rakutenKeywordLable = new javax.swing.JLabel();
+        rakutenKey = new javax.swing.JTextField();
+        getRakutenData = new javax.swing.JButton();
+        rakutenLabel = new javax.swing.JLabel();
+        amazonLabel = new javax.swing.JLabel();
+        showMessage = new javax.swing.JLabel();
+        returnShowData = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -63,55 +63,55 @@ public class GetSiteData extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("商品情報を取得");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        getYahooData.setText("商品情報を取得");
+        getYahooData.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                getYahooDataActionPerformed(evt);
             }
         });
 
-        jLabel1.setText("キーワード");
+        yahooKeywordLable.setText("キーワード");
 
-        jLabel2.setText("Yahooショッピング");
+        yahooLable.setText("Yahooショッピング");
 
-        jLabel3.setText("キーワード");
+        amazonKeywordLable.setText("キーワード");
 
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        amazonKey.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                amazonKeyActionPerformed(evt);
             }
         });
 
-        jButton2.setText("商品情報を取得");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        getAmazonData.setText("商品情報を取得");
+        getAmazonData.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                getAmazonDataActionPerformed(evt);
             }
         });
 
-        jLabel4.setText("キーワード");
+        rakutenKeywordLable.setText("キーワード");
 
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+        rakutenKey.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
+                rakutenKeyActionPerformed(evt);
             }
         });
 
-        jButton3.setText("商品情報を取得");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        getRakutenData.setText("商品情報を取得");
+        getRakutenData.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                getRakutenDataActionPerformed(evt);
             }
         });
 
-        jLabel5.setText("楽天");
+        rakutenLabel.setText("楽天");
 
-        jLabel6.setText("アマゾン");
+        amazonLabel.setText("アマゾン");
 
-        jButton4.setText("商品管理");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        returnShowData.setText("商品管理");
+        returnShowData.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                returnShowDataActionPerformed(evt);
             }
         });
 
@@ -123,35 +123,35 @@ public class GetSiteData extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(amazonKeywordLable, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(rakutenKey, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton3))
+                                .addComponent(getRakutenData))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(amazonKey, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton2)))
+                                .addComponent(getAmazonData)))
                         .addGap(36, 36, 36))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(11, 11, 11)
-                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(showMessage, javax.swing.GroupLayout.PREFERRED_SIZE, 302, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton4))
+                        .addComponent(returnShowData))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rakutenLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(amazonLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(yahooLable, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(rakutenKeywordLable, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(yahooKeywordLable, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(yahooKey, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton1)))
+                                .addComponent(getYahooData)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -159,30 +159,30 @@ public class GetSiteData extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(19, 19, 19)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(yahooLable, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(6, 6, 6)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(yahooKey, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1)
-                    .addComponent(jLabel1))
+                    .addComponent(getYahooData)
+                    .addComponent(yahooKeywordLable))
                 .addGap(25, 25, 25)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(amazonLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2))
+                    .addComponent(amazonKeywordLable)
+                    .addComponent(amazonKey, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(getAmazonData))
                 .addGap(35, 35, 35)
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(rakutenLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4)
-                    .addComponent(jButton3))
+                    .addComponent(rakutenKey, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(rakutenKeywordLable)
+                    .addComponent(getRakutenData))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4))
+                    .addComponent(showMessage, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(returnShowData))
                 .addContainerGap())
         );
 
@@ -193,11 +193,11 @@ public class GetSiteData extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_yahooKeyActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void amazonKeyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_amazonKeyActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:event_amazonKeyActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void getYahooDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getYahooDataActionPerformed
         try {
             // 時間のフォーマットを設定
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ");
@@ -209,29 +209,32 @@ public class GetSiteData extends javax.swing.JFrame {
             String key = URLEncoder.encode(yahooKey.getText(), "UTF-8");
             // サイトのアドレスを編集する,最初の5ページのデータを取得する
             for (int x = 0; x < 13; x += 3) {
-                String url = "https://shopping.yahoo.co.jp/search?p="+key+"&b="+x+"1";
+                String url = "https://shopping.yahoo.co.jp/search?p=" + key + "&b=" + x + "1";
                 datas = sr.searchYahoo(url);
                 datas.remove(0);
                 subDatas.addAll(datas);
             }
-            System.out.println("取得したデータは"+subDatas.size()+"件です");
-             // 重複したデータをlistから削除
-        for (int x = 0; x < subDatas.size(); x++) {
-            for (int y = 0; y < subDatas.size(); y++) {
-                if (x == y) {
-                    continue;
-                }
-                if (subDatas.get(x).equals(subDatas.get(y))) {
-                    subDatas.remove(y);
+            System.out.println("取得したデータは" + subDatas.size() + "件です");
+            // 重複したデータをlistから削除
+            for (int x = 0; x < subDatas.size(); x++) {
+                for (int y = 0; y < subDatas.size(); y++) {
+                    if (x == y) {
+                        continue;
+                    }
+                    if (subDatas.get(x).getImg().equals(subDatas.get(y).getImg()) && subDatas.get(x).getPrice() == subDatas.get(y).getPrice() && subDatas.get(x).getTitle().equals(subDatas.get(y).getTitle())) {
+                        subDatas.remove(y);
+                    } else {
+
+                    }
                 }
             }
-        }
-        System.out.println("重複処理した数は"+datas.size());
+            System.out.println("重複処理した数は" + subDatas.size());
             // データベースと連結する
             DataConnection c = new DataConnection();
             key = URLDecoder.decode(key, "UTF-8");
             String query_getSame = "select * from yahooSearchResultNow where keys = '" + key + "'";
             if (c.getSameData(query_getSame) == 1) {
+                showMessage.setText(yahooKey.getText() + "があるため更新しました");
                 // 旧データをyahooSearchResultに入れる
                 String query_insertOldData = "insert into yahooSearchResult(select*from yahooSearchResultNow where keys='" + key + "')";
                 //　更新時間を入れる
@@ -242,14 +245,15 @@ public class GetSiteData extends javax.swing.JFrame {
                 c.excuteSQLQuery(query_update);
                 c.excuteSQLQuery(query_delete);
                 // 今回のデータをデータベースに入れる
-                for (Data data : datas) {
+                for (Data data : subDatas) {
                     String query = "insert into yahooSearchResultNow(id,keys,img,title,price,createTime)values(nextval('yahooSearchResultNow_id_seq'),'" + key + "','" + data.getImg() + "','"
                             + data.getTitle() + "','" + data.getPrice() + "','" + date + "');";
                     c.excuteSQLQuery(query);
                 }
             } else {
+                showMessage.setText(yahooKey.getText() + "のデータを取得しました");
                 // データをそのまま入れる
-                for (Data data : datas) {
+                for (Data data : subDatas) {
                     String query = "insert into yahooSearchResultNow(id,keys,img,title,price,createTime)values(nextval('yahooSearchResultNow_id_seq'),'" + key + "','" + data.getImg() + "','"
                             + data.getTitle() + "','" + data.getPrice() + "','" + date + "');";
                     c.excuteSQLQuery(query);
@@ -262,26 +266,26 @@ public class GetSiteData extends javax.swing.JFrame {
         }
 
 
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_getYahooDataActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void getAmazonDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getAmazonDataActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_getAmazonDataActionPerformed
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void rakutenKeyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rakutenKeyActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }//GEN-LAST:event_rakutenKeyActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void getRakutenDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getRakutenDataActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_getRakutenDataActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-       
+    private void returnShowDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_returnShowDataActionPerformed
+
         ShowData sd = new ShowData();
         sd.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_returnShowDataActionPerformed
 
     /**
      * @param args the command line arguments
@@ -315,19 +319,19 @@ public class GetSiteData extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField amazonKey;
+    private javax.swing.JLabel amazonKeywordLable;
+    private javax.swing.JLabel amazonLabel;
+    private javax.swing.JButton getAmazonData;
+    private javax.swing.JButton getRakutenData;
+    private javax.swing.JButton getYahooData;
+    private javax.swing.JTextField rakutenKey;
+    private javax.swing.JLabel rakutenKeywordLable;
+    private javax.swing.JLabel rakutenLabel;
+    private javax.swing.JButton returnShowData;
+    private javax.swing.JLabel showMessage;
     private javax.swing.JTextField yahooKey;
+    private javax.swing.JLabel yahooKeywordLable;
+    private javax.swing.JLabel yahooLable;
     // End of variables declaration//GEN-END:variables
 }

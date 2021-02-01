@@ -45,15 +45,15 @@ public class ShowData extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         showResult = new javax.swing.JTable();
         searchKey = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        search = new javax.swing.JButton();
         showAllData = new javax.swing.JButton();
         csvOut = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        title = new javax.swing.JLabel();
+        creatTime = new javax.swing.JLabel();
+        price = new javax.swing.JLabel();
+        img = new javax.swing.JLabel();
+        sortCheap = new javax.swing.JButton();
+        sortExpensive = new javax.swing.JButton();
         dataGet = new javax.swing.JButton();
         site = new javax.swing.JComboBox<>();
         showTitle = new javax.swing.JLabel();
@@ -64,7 +64,7 @@ public class ShowData extends javax.swing.JFrame {
         sizeSet = new javax.swing.JLabel();
         historyData = new javax.swing.JButton();
         deleteData = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
+        id = new javax.swing.JLabel();
         showID = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -99,10 +99,10 @@ public class ShowData extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("検索");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        search.setText("検索");
+        search.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                searchActionPerformed(evt);
             }
         });
 
@@ -120,25 +120,25 @@ public class ShowData extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("商品名");
+        title.setText("商品名");
 
-        jLabel2.setText("作成時間");
+        creatTime.setText("作成時間");
 
-        jLabel3.setText("価格");
+        price.setText("価格");
 
-        jLabel4.setText("img");
+        img.setText("img");
 
-        jButton4.setText("安い順");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        sortCheap.setText("安い順");
+        sortCheap.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                sortCheapActionPerformed(evt);
             }
         });
 
-        jButton5.setText("高い順");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        sortExpensive.setText("高い順");
+        sortExpensive.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                sortExpensiveActionPerformed(evt);
             }
         });
 
@@ -172,7 +172,7 @@ public class ShowData extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("id");
+        id.setText("id");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -188,23 +188,23 @@ public class ShowData extends javax.swing.JFrame {
                                 .addGap(56, 56, 56)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(title, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
                                         .addComponent(showTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(price, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
                                         .addComponent(showPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(creatTime, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(showCreateTime, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(showImg, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel5)
+                                        .addComponent(id)
                                         .addGap(42, 42, 42)
                                         .addComponent(showID, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
@@ -224,11 +224,11 @@ public class ShowData extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(searchKey, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton4)
+                                .addComponent(sortCheap)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton5)))
+                                .addComponent(sortExpensive)))
                         .addGap(12, 12, 12)
                         .addComponent(historyData, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -246,9 +246,9 @@ public class ShowData extends javax.swing.JFrame {
                         .addGap(0, 26, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jButton5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(sortCheap, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(sortExpensive, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(showAllData)
@@ -264,34 +264,34 @@ public class ShowData extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(searchKey, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addComponent(jLabel5)
+                                        .addComponent(id)
                                         .addGap(10, 10, 10))))
                             .addComponent(showID, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(title, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(16, 16, 16)
                                 .addComponent(showTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(29, 29, 29)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(price, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(18, 18, 18)
                                 .addComponent(showPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(26, 26, 26)
-                                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(43, 43, 43)
                                 .addComponent(showImg, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(creatTime, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(24, 24, 24)
                                 .addComponent(showCreateTime, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -309,8 +309,12 @@ public class ShowData extends javax.swing.JFrame {
     private void searchKeyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchKeyActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_searchKeyActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    /**
+     * データベースにkeysで検索した結果を表示する
+     *
+     * @param evt
+     */
+    private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
 
         String key = searchKey.getText().trim();
         //　検索するキーワードを変数keyにする
@@ -331,9 +335,13 @@ public class ShowData extends javax.swing.JFrame {
             showMessage.setText(key + " を検索した結果です");
 
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_searchActionPerformed
+    /**
+     * 高い順で表示する
+     *
+     * @param evt
+     */
+    private void sortExpensiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sortExpensiveActionPerformed
 
         String key = searchKey.getText().trim();
         String query = null;
@@ -357,22 +365,30 @@ public class ShowData extends javax.swing.JFrame {
             showDataToModel(d);
         }
 
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_sortExpensiveActionPerformed
 
     private void siteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_siteActionPerformed
         // TODO add your handling code here:
 
 
     }//GEN-LAST:event_siteActionPerformed
-
+    /**
+     * データを取得する
+     *
+     * @param evt
+     */
     private void dataGetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dataGetActionPerformed
 
         GetSiteData gd = new GetSiteData();
         gd.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_dataGetActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    /**
+     * データを安い順で表示する
+     *
+     * @param evt
+     */
+    private void sortCheapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sortCheapActionPerformed
 
         String key = searchKey.getText().trim();
         String query = null;
@@ -396,8 +412,12 @@ public class ShowData extends javax.swing.JFrame {
             showDataToModel(d);
         }
 
-    }//GEN-LAST:event_jButton4ActionPerformed
-
+    }//GEN-LAST:event_sortCheapActionPerformed
+    /**
+     * テーブルにすべてのデータを表示する，検索欄をクリアする
+     *
+     * @param evt
+     */
     private void showAllDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_showAllDataActionPerformed
         // TODO add your handling code here:
         DefaultTableModel model = (DefaultTableModel) showResult.getModel();
@@ -411,7 +431,11 @@ public class ShowData extends javax.swing.JFrame {
         History h = new History();
         h.setVisible(true);
     }//GEN-LAST:event_historyDataActionPerformed
-
+    /**
+     * 選んだ一行のデータを右側に表示する
+     *
+     * @param evt
+     */
     private void showResultMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_showResultMouseClicked
         // TODO add your handling code here:
         // 選択された行をiに表示する
@@ -426,7 +450,11 @@ public class ShowData extends javax.swing.JFrame {
 
 
     }//GEN-LAST:event_showResultMouseClicked
-
+    /**
+     * 選んだ項目を削除する
+     *
+     * @param evt
+     */
     private void deleteDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteDataActionPerformed
         // TODO add your handling code here:
         DefaultTableModel model = (DefaultTableModel) showResult.getModel();
@@ -455,36 +483,33 @@ public class ShowData extends javax.swing.JFrame {
 
 
     }//GEN-LAST:event_deleteDataActionPerformed
-
+    /**
+     * テーブルにあるデータをｃｓｖ出力する
+     *
+     * @param evt
+     */
     private void csvOutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_csvOutActionPerformed
-        // TODO add your handling code here:
-        JFileChooser jc = new JFileChooser();
-        jc.showSaveDialog(null);
-        File f = jc.getSelectedFile();
-        String datas[] = null;
+
         DefaultTableModel model = (DefaultTableModel) showResult.getModel();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ");
-        String date = simpleDateFormat.format(new Date());
-        try {
-            Object data[] = model.getDataVector().toArray();
-            if (!f.exists()) {
-                FileWriter fw = new FileWriter(f, false);
-                String title = model.getColumnName(0) + "," + model.getColumnName(1) + "," + model.getColumnName(2) + "," + model.getColumnName(3) + "," + model.getColumnName(4) + "," + model.getColumnName(5) + "," + model.getColumnName(6) + "," + date + "\n";
-                fw.write(title);
-                for (Object data1 : data) {
-                    String line = data1.toString();
-                    line = line.substring(1, line.length() - 1) + "\n";
-                    System.out.println(line);
-                    fw.write(line);
-                }
-                fw.close();
-                showMessage.setText("データを出力しました");
-            } else {
-                int r = JOptionPane.showConfirmDialog(this, "同じ名前のデータがありますが，上書きしますか", "確認", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-                if (r == JOptionPane.YES_OPTION) {
+        if (model.getRowCount() == 0) {
+            JOptionPane.showConfirmDialog(this, "データがありません");
+        } else {
+            String datas[] = null;
+            // 時間表示のフォーマットを設定する
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss ");
+            String date = simpleDateFormat.format(new Date());
+            JFileChooser jc = new JFileChooser();
+            jc.showSaveDialog(null);
+            File f = jc.getSelectedFile();
+            try {
+                Object data[] = model.getDataVector().toArray();
+                if (!f.exists()) {
                     FileWriter fw = new FileWriter(f, false);
-                    String title = model.getColumnName(0) + "," + model.getColumnName(1) + "," + model.getColumnName(2) + "," + model.getColumnName(3) + "," + model.getColumnName(4) + "," + model.getColumnName(5) + "," + model.getColumnName(6) + "," + date + "\n";
-                    fw.write(title);
+                    //　タイトル内容を設定
+                    String showTitle = model.getColumnName(0) + "," + model.getColumnName(1) + "," + model.getColumnName(2) + "," + model.getColumnName(3) + "," + model.getColumnName(4) + "," + model.getColumnName(5) + "," + model.getColumnName(6) + "," + date + "\n";
+                    //　タイトルを書き込み
+                    fw.write(showTitle);
+                    //　データをループして挿入する
                     for (Object data1 : data) {
                         String line = data1.toString();
                         line = line.substring(1, line.length() - 1) + "\n";
@@ -493,15 +518,37 @@ public class ShowData extends javax.swing.JFrame {
                     }
                     fw.close();
                     showMessage.setText("データを出力しました");
-
                 } else {
-                    showMessage.setText("キャンセルしました");
+                    // 同じ名前のデータがこの場所にある場合に上書きを提示する
+                    int r = JOptionPane.showConfirmDialog(this, "同じ名前のデータがありますが，上書きしますか", "確認", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+                    //　yesを選択する場合，上書きする
+                    if (r == JOptionPane.YES_OPTION) {
+                        FileWriter fw = new FileWriter(f, false);
+                        String title = model.getColumnName(0) + "," + model.getColumnName(1) + "," + model.getColumnName(2) + "," + model.getColumnName(3) + "," + model.getColumnName(4) + "," + model.getColumnName(5) + "," + model.getColumnName(6) + "," + date + "\n";
+                        fw.write(title);
+                        for (Object data1 : data) {
+                            String line = data1.toString();
+                            line = line.substring(1, line.length() - 1) + "\n";
+                            System.out.println(line);
+                            fw.write(line);
+                        }
+                        fw.close();
+                        showMessage.setText("データを出力しました");
+                        // キャンセルする場合に提示するだけ
+                    } else {
+                        showMessage.setText("キャンセルしました");
 
+                    }
                 }
+            } catch (Exception e) {
             }
-        } catch (Exception e) {
         }
     }//GEN-LAST:event_csvOutActionPerformed
+    /**
+     * データをテーブルに表示する
+     *
+     * @param data
+     */
     public void showDataToModel(ArrayList<DataNow> data) {
         if (!data.isEmpty()) {
             DefaultTableModel model = (DefaultTableModel) showResult.getModel();
@@ -535,6 +582,7 @@ public class ShowData extends javax.swing.JFrame {
         DataConnection bc = new DataConnection();
         String query = "select * from yahooSearchResultNow;";
         ArrayList<DataNow> list = bc.getDataNow(query);
+        // データをテーブルに表示する
         if (!list.isEmpty()) {
             showDataToModel(list);
         } else {
@@ -552,6 +600,11 @@ public class ShowData extends javax.swing.JFrame {
         site.addItem("楽天");
     }
 
+    /**
+     * 検索欄の内容を提供する
+     *
+     * @return
+     */
     public String getkey() {
         return searchKey.getText();
     }
@@ -600,19 +653,16 @@ public class ShowData extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel creatTime;
     private javax.swing.JButton csvOut;
     private javax.swing.JButton dataGet;
     private javax.swing.JButton deleteData;
     private javax.swing.JButton historyData;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel id;
+    private javax.swing.JLabel img;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel price;
+    private javax.swing.JButton search;
     private javax.swing.JTextField searchKey;
     private javax.swing.JButton showAllData;
     private javax.swing.JLabel showCreateTime;
@@ -624,5 +674,8 @@ public class ShowData extends javax.swing.JFrame {
     private javax.swing.JLabel showTitle;
     private javax.swing.JComboBox<String> site;
     private javax.swing.JLabel sizeSet;
+    private javax.swing.JButton sortCheap;
+    private javax.swing.JButton sortExpensive;
+    private javax.swing.JLabel title;
     // End of variables declaration//GEN-END:variables
 }

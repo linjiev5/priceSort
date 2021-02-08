@@ -460,7 +460,7 @@ public class ShowData extends javax.swing.JFrame {
         DefaultTableModel model = (DefaultTableModel) showResult.getModel();
         if (showResult.getSelectedRows().length >= 1) {
             DataConnection dc = new DataConnection();
-            int r = JOptionPane.showConfirmDialog(this, "削除したら戻せないです", "確認", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+            int r = JOptionPane.showConfirmDialog(this, "削除したら戻せないです", "確認", JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
             if (r == JOptionPane.YES_OPTION) {
                 int rows[] = showResult.getSelectedRows();
                 for (int x = 0; x < rows.length; x++) {
@@ -475,7 +475,7 @@ public class ShowData extends javax.swing.JFrame {
                 String message = count + "件のデータが削除しました";
                 showMessage.setText(message);
             } else {
-
+               
             }
         } else {
             showMessage.setText("削除するデータを選択してください");
@@ -501,6 +501,7 @@ public class ShowData extends javax.swing.JFrame {
             JFileChooser jc = new JFileChooser();
             jc.showSaveDialog(null);
             File f = jc.getSelectedFile();
+            
             try {
                 Object data[] = model.getDataVector().toArray();
                 if (!f.exists()) {

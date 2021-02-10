@@ -9,7 +9,7 @@ create table yahooSearchResult(
     , createTime timestamp
     , updateTime timestamp
 ); 
-drop sequence yahooSearchResult_id_seq;
+
 CREATE SEQUENCE yahooSearchResult_id_seq INCREMENT BY
     1 MAXVALUE 99999999 
 START WITH
@@ -23,7 +23,7 @@ create table yahooSearchResultNow(
     , price int
     , createTime timestamp
 ); 
- drop sequence yahooSearchResultNow_id_seq; 
+
 CREATE SEQUENCE yahooSearchResultNow_id_seq INCREMENT BY
     1 MAXVALUE 99999999 
 START WITH

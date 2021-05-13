@@ -19,7 +19,7 @@ import object.DataNow;
  */
 public class DataConnection {
 
-    String url = "jdbc:postgresql://localHost:5432/lin";
+    String url = "jdbc:postgresql://localHost:5432/Lin";
     String user = "postgres";
     String pas = "postgres";
 

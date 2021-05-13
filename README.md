@@ -30,27 +30,27 @@ CSVファイルはSHIFT_JISで作成する。（excelからCSV形式で保存し
 <img src="img/image-20210421145505973.png" alt="image-20210421145505973" style="zoom:100%;" />
 
 #### 2-2．データ一覧表示画面
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421151114248.png"  style="zoom:100%;" />
 画面レイアウト：
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421145659594.png"  style="zoom:100%;" />
+<img src="img/image-20210421150350059.png"  style="zoom:100%;" />
+<img src="img/image-20210421150525342.png"  style="zoom:100%;" />
 
 #### 2-3．履歴一覧表示
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421151005941.png"  style="zoom:100%;" />
 
 画面レイアウト：
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421151248873.png"  style="zoom:100%;" />
+<img src="img/image-20210421151319957.png"  style="zoom:100%;" />
+<img src="img/image-20210421151350760.png"  style="zoom:100%;" />
 
 #### 2-4．データ取得
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421151634543.png"  style="zoom:100%;" />
 
 画面レイアウト：
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421151654889.png"  style="zoom:100%;" />
+<img src="img/image-20210421151707930.png"  style="zoom:100%;" />
+<img src="img/image-20210421151731935.png"  style="zoom:100%;" />
 
 
 
@@ -70,11 +70,11 @@ CSVファイルはSHIFT_JISで作成する。（excelからCSV形式で保存し
 <img src="img/image-20210421155528537.png"  style="zoom:100%;" />
 
 「安い順」を押したら
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421155650024.png"  style="zoom:100%;" />
 
 削除してみます
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421155757076.png"  style="zoom:100%;" />
+<img src="img/image-20210421155826723.png"  style="zoom:100%;" />
 
 csvを作成します
-<img src="img/image-e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/image-20210421160030538.png"  style="zoom:100%;" />

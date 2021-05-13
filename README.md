@@ -27,76 +27,54 @@ CSVファイルはSHIFT_JISで作成する。（excelからCSV形式で保存し
 
 #### 2-1．画面遷移図
 
-<img src="C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421145505973.png" alt="image-20210421145505973" style="zoom:50%;" />
+<img src="img/image-20210421145505973.png" alt="image-20210421145505973" style="zoom:100%;" />
 
 #### 2-2．データ一覧表示画面
-
-![image-20210421151114248](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151114248.png)
-
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
 画面レイアウト：
-
-<img src="C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421145659594.png" alt="image-20210421145659594"  />
-
-<img src="C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421150350059.png" alt="image-20210421150350059" style="zoom:80%;" />
-
-<img src="C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421150525342.png" alt="image-20210421150525342"  />
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
 
 #### 2-3．履歴一覧表示
-
-![image-20210421151005941](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151005941.png)
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
 
 画面レイアウト：
-
-![image-20210421151248873](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151248873.png)
-
-![image-20210421151319957](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151319957.png)
-
-![image-20210421151350760](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151350760.png)
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
 
 #### 2-4．データ取得
-
-![image-20210421151634543](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151634543.png)
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
 
 画面レイアウト：
-
-![image-20210421151654889](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151654889.png)
-
-![image-20210421151707930](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151707930.png)
-
-![image-20210421151731935](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421151731935.png)
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
 
 
 
 # 3．構成
 
 プロジェクト構成は下記の通りです。
-
-![image-20210421153747851](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421153747851.png)
-
-![image-20210421153915379](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421153915379.png)
-
-![image-20210421154543020](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421154543020.png)
+<img src="img/image-20210421153747851.png"  style="zoom:100%;" />
+<img src="img/image-20210421153915379.png"  style="zoom:100%;" />
+<img src="img/image-20210421154543020.png"  style="zoom:100%;" />
 
 # 4．実践
 
 「栗」を検索してみます：
-
-![image-20210421155248566](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421155248566.png)
+<img src="img/image-20210421155248566.png"  style="zoom:100%;" />
 
 「商品管理」を押したら
-
-![image-20210421155528537](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421155528537.png)
+<img src="img/image-20210421155528537.png"  style="zoom:100%;" />
 
 「安い順」を押したら
-
-![image-20210421155650024](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421155650024.png)
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
 
 削除してみます
-
-![image-20210421155757076](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421155757076.png)
-
-![image-20210421155826723](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421155826723.png)
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
 
 csvを作成します
-
-![image-20210421160030538](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421160030538.png)
+<img src="img/e847b2eb41bc049556a6f61b164f990.png"  style="zoom:100%;" />
